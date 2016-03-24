@@ -1,7 +1,7 @@
 emacs 配置文件
 ==============
 
-先安装 [spaceemacs](https://github.com/syl20bnr/spacemacs)
+先安装 [spacemacs](https://github.com/syl20bnr/spacemacs)
 
 然后把本文件扔到 `$HOME`
 
