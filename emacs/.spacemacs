@@ -33,7 +33,8 @@ values."
      org
      (shell :variables
             shell-default-height 30
-            shell-default-position 'bottom)
+            shell-default-position 'bottom
+            shell-default-shell 'eshell)
      spell-checking
      syntax-checking
      version-control
