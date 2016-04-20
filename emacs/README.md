@@ -23,8 +23,12 @@ emacs 配置文件
 
 - 添加有道词典: [配置说明](https://github.com/syl20bnr/spacemacs/blob/f49792e1206895b7440e24c8193ac5af6c5548c7/layers/chinese)
   - 绑定 key 为 `SPC o y`
+  
+- 禁用括号补全（至少在这玩意变的更智能一些之前）
 
 备注
 ----
 
 如果提示没有中文拼写检查支持之类，设置环境变量 `LANG=C`
+
+为了中文输入，再设置 `LC_CTYPE=zh_CN.UTF-8`
