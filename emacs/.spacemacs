@@ -27,6 +27,7 @@ values."
      emacs-lisp
      scheme
      clojure
+     racket
      git
      markdown
      org
