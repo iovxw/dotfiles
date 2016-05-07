@@ -26,9 +26,11 @@ emacs 配置文件
   [配置说明](https://github.com/syl20bnr/spacemacs/tree/27599e00c627217070bec603684b2c1989fd6dd9/layers/%2Blang/racket)
 
 - 添加有道词典: [配置说明](https://github.com/syl20bnr/spacemacs/blob/f49792e1206895b7440e24c8193ac5af6c5548c7/layers/chinese)
-  - 绑定 key 为 `SPC o y`
+  - 绑定快捷键为 `SPC o y`
   
 - 禁用括号补全（至少在这玩意变的更智能一些之前）
+
+- 开启自动高亮匹配括号模式 `(show-paren-mode)`
 
 备注
 ----
