@@ -265,6 +265,8 @@ layers configuration. You are free to put any user code."
 
   (evil-leader/set-key
     "oy" 'youdao-dictionary-search-at-point+)
+
+  (fset 'evil-visual-update-x-selection 'ignore)
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
