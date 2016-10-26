@@ -257,8 +257,6 @@ layers configuration. You are free to put any user code."
   (evil-leader/set-key
     "oy" 'youdao-dictionary-search-at-point+)
 
-  (spacemacs//set-monospaced-font "Ubuntu Mono" "Noto Sans Mono CJK SC" 16 16)
-
   (setq powerline-default-separator 'arrow)
   )
 
