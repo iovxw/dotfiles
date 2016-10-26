@@ -28,6 +28,7 @@ values."
      scheme
      clojure
      racket
+     rust
      git
      markdown
      org
@@ -252,7 +253,9 @@ layers configuration. You are free to put any user code."
             (lambda ()
               (define-clojure-indent
                 (match 1)
-                (match-cmd 1))))
+                (match-cmd 1)
+                (match-args 1)
+                (go-let 1))))
 
   (require 'ac-cider)
   (add-hook 'cider-mode-hook 'ac-flyspell-workaround)
@@ -272,8 +275,15 @@ layers configuration. You are free to put any user code."
   (evil-leader/set-key
     "oy" 'youdao-dictionary-search-at-point+)
 
-  ; 同步系统剪贴板
+  ;; 同步系统剪贴板
   (fset 'evil-visual-update-x-selection 'ignore)
+
+  ;; Visual mode 中粘贴时不复制选中内容
+  (defun evil-paste-after-from-0 ()
+    (interactive)
+    (let ((evil-this-register ?0))
+      (call-interactively 'evil-paste-after)))
+  (define-key evil-visual-state-map "p" 'evil-paste-after-from-0)
 
   (spacemacs//set-monospaced-font "Ubuntu Mono" "Noto Sans Mono CJK SC" 16 16)
 
