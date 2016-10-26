@@ -14,16 +14,9 @@ emacs 配置文件
 
 - 修改默认字体为 **Ubuntu Mono** （需手动安装）
 
-- 添加 Scheme 支持:
-  [配置说明](https://github.com/syl20bnr/spacemacs/blob/531ec8e2c94bbb228ba4655b6d0f16d32dab9d9b/layers/%2Blang/scheme/README.org)
-  - 添加 Scheme 自动补全: [ac-geiser](https://github.com/xiaohanyu/ac-geiser)
-  
 - 添加 Clojure 支持:
   [配置说明](https://github.com/syl20bnr/spacemacs/blob/f49792e1206895b7440e24c8193ac5af6c5548c7/layers/%2Blang/clojure/README.org)
   - 添加 Clojure 自动补全: [ac-cider](https://github.com/clojure-emacs/ac-cider)
-
-- 添加 Racket 支持:
-  [配置说明](https://github.com/syl20bnr/spacemacs/tree/27599e00c627217070bec603684b2c1989fd6dd9/layers/%2Blang/racket)
 
 - 添加有道词典: [配置说明](https://github.com/syl20bnr/spacemacs/blob/f49792e1206895b7440e24c8193ac5af6c5548c7/layers/chinese)
   - 绑定快捷键为 `SPC o y`

@@ -25,9 +25,7 @@ values."
      ;; ----------------------------------------------------------------
      auto-completion
      emacs-lisp
-     scheme
      clojure
-     racket
      rust
      git
      markdown
