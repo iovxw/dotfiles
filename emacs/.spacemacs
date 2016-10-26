@@ -43,7 +43,7 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   dotspacemacs-additional-packages '(ac-cider ac-geiser)
+   dotspacemacs-additional-packages '()
    ;; A list of packages and/or extensions that will not be install and loaded.
    dotspacemacs-excluded-packages '(smartparens)
    ;; If non-nil spacemacs will delete any orphan packages, i.e. packages that
@@ -255,33 +255,8 @@ layers configuration. You are free to put any user code."
                 (match-args 1)
                 (go-let 1))))
 
-  (require 'ac-cider)
-  (add-hook 'cider-mode-hook 'ac-flyspell-workaround)
-  (add-hook 'cider-mode-hook 'ac-cider-setup)
-  (add-hook 'cider-repl-mode-hook 'ac-cider-setup)
-  (eval-after-load "auto-complete"
-    '(progn
-       (add-to-list 'ac-modes 'cider-mode)
-       (add-to-list 'ac-modes 'cider-repl-mode)))
-
-  (require 'ac-geiser)
-  (add-hook 'geiser-mode-hook 'ac-geiser-setup)
-  (add-hook 'geiser-repl-mode-hook 'ac-geiser-setup)
-  (eval-after-load "auto-complete"
-    '(add-to-list 'ac-modes 'geiser-repl-mode))
-
   (evil-leader/set-key
     "oy" 'youdao-dictionary-search-at-point+)
-
-  ;; 同步系统剪贴板
-  (fset 'evil-visual-update-x-selection 'ignore)
-
-  ;; Visual mode 中粘贴时不复制选中内容
-  (defun evil-paste-after-from-0 ()
-    (interactive)
-    (let ((evil-this-register ?0))
-      (call-interactively 'evil-paste-after)))
-  (define-key evil-visual-state-map "p" 'evil-paste-after-from-0)
 
   (spacemacs//set-monospaced-font "Ubuntu Mono" "Noto Sans Mono CJK SC" 16 16)
 
