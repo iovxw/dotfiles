@@ -25,9 +25,6 @@ emacs 配置文件
 
 - 开启自动高亮匹配括号模式 `(show-paren-mode)`
 
-备注
-----
+- 设置默认拼写检查字典为美国英语
 
-如果提示没有中文拼写检查支持之类，设置环境变量 `LANG=C`
-
-为了中文输入，再设置 `LC_CTYPE=zh_CN.UTF-8`
+- 统一 VIM **Visual Mode** 下从系统剪贴板粘贴的行为 [#3735](https://github.com/syl20bnr/spacemacs/issues/3735)
