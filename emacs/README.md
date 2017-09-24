@@ -1,9 +1,9 @@
 emacs 配置文件
 ==============
 
-先安装 [spacemacs](https://github.com/syl20bnr/spacemacs)
+先安装 [spacemacs](https://github.com/syl20bnr/spacemacs) 并切换到 `develop` 分支
 
-然后把本文件扔到 `$HOME`
+然后把 *.spacemacs* 扔到 `$HOME`
 
 变更
 ----
@@ -23,7 +23,7 @@ emacs 配置文件
 
 - ~~禁用括号补全（至少在这玩意变的更智能一些之前）~~
 
-- ~~开启自动高亮匹配括号模式 `(show-paren-mode)`~~
+- ~~开启自动高亮匹配括号模式 `(show-paren-mode)`~~（ Spacemacs 已默认启用）
 
 - 设置默认拼写检查字典为美国英语
 
