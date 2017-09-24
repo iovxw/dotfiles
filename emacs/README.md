@@ -14,16 +14,16 @@ emacs 配置文件
 
 - 修改默认字体为 **Ubuntu Mono** （需手动安装）
 
-- 添加 Clojure 支持: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+lang/clojure)
+- ~~添加 Clojure 支持: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+lang/clojure)~~
 
 - 添加 Rust 支持: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+lang/rust)
 
 - 添加有道词典: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+intl/chinese)
   - 绑定快捷键为 `SPC o y`
 
-- 禁用括号补全（至少在这玩意变的更智能一些之前）
+- ~~禁用括号补全（至少在这玩意变的更智能一些之前）~~
 
-- 开启自动高亮匹配括号模式 `(show-paren-mode)`
+- ~~开启自动高亮匹配括号模式 `(show-paren-mode)`~~
 
 - 设置默认拼写检查字典为美国英语
 
