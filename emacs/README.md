@@ -12,7 +12,7 @@ emacs 配置文件
 
 - 修改默认主题为 [gruvbox](https://github.com/greduan/emacs-theme-gruvbox)
 
-- 修改默认字体为 **Ubuntu Mono** （需手动安装）
+- 修改默认字体为 [**Terminus**](http://terminus-font.sourceforge.net/)
 
 - ~~添加 Clojure 支持: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+lang/clojure)~~
 

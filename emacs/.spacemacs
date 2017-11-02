@@ -42,6 +42,7 @@ This function should only modify configuration layer settings."
      git
      markdown
      org
+     yaml
      (shell :variables
             shell-default-height 30
             shell-default-position 'bottom
@@ -60,7 +61,7 @@ This function should only modify configuration layer settings."
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
    ;; A list of packages that will not be installed and loaded.
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages '(smartparens)
    ;; Defines the behaviour of Spacemacs when installing packages.
    ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
    ;; `used-only' installs only explicitly used packages and deletes any unused
@@ -136,8 +137,8 @@ It should only modify the values of Spacemacs settings."
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
-   dotspacemacs-default-font '("Ubuntu Mono"
-                               :size 16
+   dotspacemacs-default-font '("Terminus"
+                               :size 14
                                :weight normal
                                :width normal
                                :powerline-scale 1.3)
