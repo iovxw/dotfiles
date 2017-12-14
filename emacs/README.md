@@ -28,3 +28,5 @@ emacs 配置文件
 - 设置默认拼写检查字典为美国英语
 
 - 统一 VIM **Visual Mode** 下从系统剪贴板粘贴的行为 [#3735](https://github.com/syl20bnr/spacemacs/issues/3735)
+
+- 修复鼠标左击打开最近文件的自动粘贴问题 [#5435](https://github.com/syl20bnr/spacemacs/issues/5435)

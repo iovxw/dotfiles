@@ -357,6 +357,12 @@ before packages are loaded."
   ;; https://github.com/syl20bnr/spacemacs/issues/3735
   (fset 'evil-visual-update-x-selection 'ignore)
 
+  ;; https://github.com/syl20bnr/spacemacs/issues/5435
+  (add-hook 'spacemacs-buffer-mode-hook
+            (lambda ()
+              (set (make-local-variable 'mouse-1-click-follows-link)
+                   nil)))
+
   (setq powerline-default-separator 'arrow)
   )
 
