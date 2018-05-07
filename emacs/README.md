@@ -14,6 +14,8 @@ emacs 配置文件
 
 - 修改默认字体为 [**Terminus**](http://terminus-font.sourceforge.net/)
 
+- 开启 `relative` 行号, 方便批量操作
+
 - 修改 Mode-line separator 为 `utf-8`, 需要安装 [`Powerline` 字体](https://github.com/powerline/powerline)
 
 - ~~添加 Clojure 支持: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+lang/clojure)~~
