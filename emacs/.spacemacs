@@ -43,7 +43,10 @@ This function should only modify configuration layer settings."
      auto-completion
      ;; better-defaults
      rust
-     c-c++
+     (c-c++ :variables
+            c-c++-default-mode-for-headers 'c++-mode
+            c-c++-enable-clang-support t
+            c-c++-enable-rtags-support t)
      emacs-lisp
      git
      markdown
