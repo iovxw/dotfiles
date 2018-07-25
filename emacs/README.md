@@ -20,7 +20,9 @@ emacs 配置文件
 
 - ~~添加 Clojure 支持: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+lang/clojure)~~
 
-- 添加 Rust 支持: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+lang/rust)
+- ~添加 Rust 支持: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+lang/rust)~
+
+- Rust 支持修改为 rls, 安装见 <https://github.com/iovxw/spacemacs-rls>
 
 - 添加有道词典: [配置说明](https://github.com/syl20bnr/spacemacs/tree/master/layers/+intl/chinese)
   - 绑定快捷键为 `SPC o y`
