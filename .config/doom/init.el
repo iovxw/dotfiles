@@ -152,3 +152,4 @@
        ;; your own modules.
        (default +bindings +snippets +evil-commands))
 
+(setq display-line-numbers-type 'relative)
