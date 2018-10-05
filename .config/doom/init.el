@@ -153,3 +153,4 @@
        (default +bindings +snippets +evil-commands))
 
 (setq display-line-numbers-type 'relative)
+(setq doom-font (font-spec :family "xos4 Terminus" :size 16))
