@@ -42,7 +42,7 @@
 
        :editor
        fold              ; (nigh) universal code folding
-       ;;(format +onsave)  ; automated prettiness
+       format            ; automated prettiness
        ;;lispy             ; vim for lisp, for people who dont like vim
        multiple-cursors  ; editing in many places at once
        ;;parinfer          ; turn lisp into python, sort of
@@ -124,7 +124,7 @@
        ;;racket            ; a DSL for DSLs
        ;;rest              ; Emacs as a REST client
        ;;ruby              ; 1.step do {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
-       (rust +lsp)              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
+       (rust +lsp)       ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
        (sh +fish)        ; she sells (ba|z|fi)sh shells on the C xor
        ;;solidity          ; do you need a blockchain? No.
