@@ -1,5 +1,4 @@
-;; -*- no-byte-compile: t; -*-
-;;; Workspace/Others/dotfiles/.config/doom/packages.el
+;;; ~/.config/doom/packages.el -*- no-byte-compile: t; -*-
 
 ;;; Examples:
 ;; (package! some-package)
