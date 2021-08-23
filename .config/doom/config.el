@@ -1,7 +1,6 @@
 ;;; ~/.config/doom/config.el -*- lexical-binding: t; -*-
 
 (setq display-line-numbers-type 'relative
-      rustic-lsp-server 'rust-analyzer
       doom-font (font-spec :family "xos4 Terminus" :size 16)
       doom-unicode-font (font-spec :family "Noto Sans Symbols"))
 
