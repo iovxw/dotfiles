@@ -8,3 +8,4 @@ vimcmd_visual_symbol = "[≪](yellow)"
 
 [directory]
 format = "[☼](yellow) [$path]($style)[$read_only]($read_only_style) "
+read_only = " "
