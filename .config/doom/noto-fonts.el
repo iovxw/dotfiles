@@ -77,7 +77,6 @@
 (set-fontset-font t 'saurashtra "Noto Sans Saurashtra")
 (set-fontset-font t 'shavian "Noto Sans Shavian")
 (set-fontset-font t 'sinhala "Noto Sans Sinhala")
-(set-fontset-font t 'sinhala-archaic-number "Noto Sans Sinhala")
 (set-fontset-font t 'sundanese "Noto Sans Sundanese")
 (set-fontset-font t 'syloti-nagri "Noto Sans Syloti Nagri")
 (set-fontset-font t 'syriac "Noto Sans Syriac")
