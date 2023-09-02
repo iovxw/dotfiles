@@ -28,8 +28,7 @@
 ;; up, `M-x eval-region' to execute elisp code, and 'M-x doom/reload-font' to
 ;; refresh your font settings. If Emacs still can't find your font, it likely
 ;; wasn't installed correctly. Font issues are rarely Doom issues!
-(setq display-line-numbers-type 'relative
-      doom-font (font-spec :family "Terminus (TTF)" :size 24)
+(setq doom-font (font-spec :family "Terminus (TTF)" :size 24)
       doom-symbol-font (font-spec :family "Noto Sans Symbols"))
 (defun init-noto-fonts ()
   "NO TOFU!"
